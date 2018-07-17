@@ -1,0 +1,22 @@
+{
+	"getNewsList":[{
+		"title": "新闻条目",
+		"url": ""
+	},
+	{
+		"title": "新闻条目2",
+		"url": ""
+	},
+	{
+		"title": "新闻条目3",
+		"url": ""
+	},
+	{
+		"title": "新闻条目4",
+		"url": ""
+	}],
+	"login":{
+		"userName":"yzy",
+		"userId":"123"
+	}
+}
