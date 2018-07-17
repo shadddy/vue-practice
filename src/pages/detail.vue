@@ -74,11 +74,13 @@
 		width: 200px;
 		text-align: center;
 	}
+	
 	.detail-right {
-  float: left;
-  width: 980px;
-  margin-left: 20px;
-}
+		float: left;
+		width: 980px;
+		margin-left: 20px;
+	}
+	
 	.product-board {
 		background: #fff;
 		padding: 20px 0;
