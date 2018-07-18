@@ -4,7 +4,7 @@
 			<div class="product-board">
 				<img :src="productIcon" />
 				<ul>
-					<router-link v-for="item in products" :to="{path:item.path}" tag="li" active-class="active">
+					<router-link v-for="item in products" :key="item.id" :to="{path:item.path}" tag="li" active-class="active">
 						{{item.name}}
 					</router-link>
 				</ul>
@@ -23,22 +23,26 @@
 		data() {
 			return {
 				products: [{
+						id:'analysis',
 						name: '流量分析',
 						path: 'analysis',
 						active: false
 					},
-					{
+					{	
+						id:'count',
 						name: '数据统计',
 						path: 'count',
 						active: false
 					},
-					{
+					{	
+						id:'forecast',
 						name: '数据预测',
 						path: 'forecast',
 						active: false
 					},
 
 					{
+						id:'publish',
 						name: '广告发布',
 						path: 'publish',
 						active: false
