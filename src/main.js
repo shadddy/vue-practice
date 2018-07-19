@@ -17,9 +17,9 @@ Vue.use(VueRouter)
 Vue.use(VueResource)
 
 let router = new VueRouter({
-	mode: 'history',
 	routes: [{
 		path: '/',
+		name:'IndexPage',
 		component: IndexPage
 	}, {
 		path: '/detail',

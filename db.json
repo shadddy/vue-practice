@@ -18,5 +18,8 @@
 	"login":{
 		"userName":"yzy",
 		"userId":"123"
+	},
+	"getPrice":{
+		"amount":678
 	}
 }
