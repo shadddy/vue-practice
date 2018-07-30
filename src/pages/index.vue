@@ -58,7 +58,7 @@
 		},
 		methods:{
 			doSomethingOnSlideChange(data){
-				console.log(data)
+
 			}
 		},
 		data() {
