@@ -104,7 +104,7 @@
 			CheckOrder
 		},
 		data() {
-			return {
+			return { 
 				buyNum: 0,
 				buyType: {},
 				versions: [],
@@ -140,7 +140,7 @@
 					label: '专家版',
 					value: 1
 				}],
-				isShowPayDialog: true,
+				isShowPayDialog: false,
 				bankId: null,
 				orderId: null,
 				isShowCheckOrder: false,
@@ -182,7 +182,6 @@
 			},
 			onChangeBanks(bankObj) {
 				this.bankId = bankObj.id
-				console.log(this.bankId)
 			},
 			confirmBuy() {
 				let buyVersionsArray = _.map(this.versions, (item) => {
