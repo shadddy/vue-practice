@@ -58,7 +58,6 @@
 		},
 		methods:{
 			doSomethingOnSlideChange(data){
-
 			}
 		},
 		data() {
